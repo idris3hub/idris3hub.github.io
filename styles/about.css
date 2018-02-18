@@ -1,0 +1,21 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	width: auto;
+	height: 500px;
+}
+.container{
+	width: 100%;
+	height: 150%;
+	background-image: url(/imgs/wallhaven-49170.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+.quote{
+	background-color: #666;
+	
+}
