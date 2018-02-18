@@ -1,12 +1,18 @@
 *{
 padding: 0;
 margin: 0;
-	box-sizing: border-box;
 }
-body{
-	height: 100px;
-	margin: 0;
-	background:#959796 url(/imgs/backgrounds/back1.jpeg);
+body, html{
+ height:50%;
+  margin:0;
+  font-size:16px;
+  font-family:"Lato", sans-serif;
+  font-weight:400;
+  line-height:1.8em;
+  color:#666;
+	background-color:#666;
+
+	background:url(/imgs/backgrounds/back1.jpeg);
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 .mainImage{
@@ -22,6 +28,34 @@ body{
 	border-bottom-left-radius:30px;
 	border-bottom-right-radius: 30px;
 	margin-bottom: 10px;
+	
+	text-align: center;
+}
+.pht{
+	color:#0431B4;
+	text-shadow:5px 5px 5px #fff9 ;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	font-size: 50px;
+	font-weight: bolder;
+	background-color: #0005;
+	padding:0;
+	text-align: center;
+	margin: 0;
+	position: absolute;
+	top:70%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 300px;
+	line-height: 100px;
+	border:5px solid #fff9;
+	border-radius: 10px;
+}
+.pht:hover{
+	border:4px solid #0174DF;
+	color: #fff7;
+	background-color: #fff4;
+	text-shadow:5px 5px 5px #0174DF ;
 }
 .img1{
 	width: 98%;
@@ -56,6 +90,7 @@ body{
 	border-radius: 20px;
 	margin-left: 50px;
 	margin-right: 15px;
+	text-align: center;
 	
 }
 .myImg{
