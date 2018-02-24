@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+	padding: 0;
+	
+}
+
+body, html{
+	height: 100hv;
+	padding: 0;
+	margin: 0;
+	font-size:16px;
+  	font-family:"Lato", sans-serif;
+  	font-weight:400;
+  	line-height:1.8em;
+  	color:#666;
+	background-color:#666;	
+	background-image: url(/imgs/wallhaven-168701.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	
+}
+
+/*form code*/
+.container{
+	text-align: center;
+	width: 600px;
+	padding: 30px;
+	margin: 40px auto;
+	background: #000;
+	opacity: 0.7;
+	border-radius: 10px;
+	box-shadow: 5px 5px 15px 5px #fff5;
+}
+.cont-title{
+
+	color: #fff;
+	text-transform: uppercase;
+	
+}
+
+.cont-title h2{
+	font-size: 30px;
+	line-height: 10px;
+}
+form{
+
+	margin-top: 50px;
+	
+}
+.cntf{
+	width: 400px;
+	background:transparent;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid gray;
+	color: #fff;
+	font-size: 18px;
+	margin-bottom: 16px;
+	
+}
+input{
+	height: 45px;
+}
+form .submit{
+	background: red;
+	border-color: #fff;
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	border-radius: 10px;
+	height: 50px;
+	margin-top: 20px;
+}
+form .submit:hover{
+	background-color:darkred;
+	cursor: pointer;
+}
+/*end of form code*/

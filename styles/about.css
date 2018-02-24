@@ -3,19 +3,20 @@
 	margin: 0;
 }
 body, html{
-	 height:100%;
-  margin:0;
-  font-size:16px;
-  font-family:"Lato", sans-serif;
-  font-weight:400;
-  line-height:1.8em;
-  color:#666;
-	background-color:#666;
+	padding: 0;	
+	height:50%;
+  	margin:0;
+  	font-size:16px;
+  	font-family:"Lato", sans-serif;
+  	font-weight:400;
+  	line-height:1.8em;
+  	color:#666;
+	background-color:#111;
 
 }
-#showcase{
-	width: 99%;
-	height: 150%;
+.showcase{
+	width: 100%;
+	height: 600%;
 	margin: 3px;
 	background-image: url(/imgs/wallhaven-393458.jpg);
 	background-size: cover;
@@ -25,6 +26,7 @@ body, html{
 	position: relative;
 	border:5px solid transparent ;
 	border-radius: 10px;
+
 }
 .quote{
 	color: #ccc;
